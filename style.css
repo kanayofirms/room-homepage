@@ -3,3 +3,22 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+html body {
+    max-width: 100vw;
+    min-height: 100%;
+    border: 2px solid green;
+}
+
+#flex-container-one{
+    height: 60%;
+    display: flex;
+    border: 2px solid red;
+}
+
+#flex-container-two{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid yellow;
+    height: 40%;
+}
